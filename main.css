@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  background-color: #000000;
+}
+
+.login{
+  display: flex;
+  color: #ffffff;
+}
+.logo{
+  background: url('https://abs.twimg.com/sticky/illustrations/lohp_en_850x623.png') no-repeat left / cover;
+  width: 50%;
+  height: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  width: 42%;
+}
+.loginSignup{
+  width: 50%;
+  padding-left: 40px;
+}
+.loginSignup h1{
+  font-size: 68px;
+  margin: 50px 0px 60px;
+  font-weight: 800;
+}
+.loginSignup h4{
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.logo-sm{
+  background: url('img/twitter.png') no-repeat center / cover;
+  width: 44px;
+  height: 36px;
+  display: table;
+  margin-top: 50px;
+}
+.signup-btn{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(29, 161, 242);
+  padding: 15px 160px;
+  display: table;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  transition: all .3s ease;
+}
+.signup-btn:hover{
+  background-color: #178fd8;
+}
+.login-btn{
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  border: 1px solid rgb(29, 161, 242);
+  padding: 15px 165px;
+  display: inline-block;
+  border-radius: 30px;
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+.footer-menu ul{
+  list-style: none;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.footer-menu ul li{
+  display: inline-block;
+  margin: 0px 5px;
+}
+.footer-menu a{
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+  font-family: sans-serif;
+  font-size: 13px;
+  display: inline-block;
+}
+.footer-menu a:hover{
+  text-decoration:underline;
+}
+.footer-copyright p{
+  color: rgb(110, 118, 125);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
